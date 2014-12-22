@@ -1,5 +1,5 @@
 $(function() {
-	var socket = io.connect('http://localhost:3000');
+	var socket = io.connect(window.location.hostname);
 
 	var $scr = $('#screen');
 	var $welcome = $('.welcome');
