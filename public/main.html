@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Shapes!</title>
+	<link rel="stylesheet" href="/css/style.css">
+</head>
+<body>
+	<div class="wrapper">
+		<h1 class="welcome">Hey, <span></span></h1>
+		<div id="workfield"><canvas id="screen" width="800" height="600"></canvas></div>
+		<div class="control">
+			<button class="btn" id="new-shape">Add shape</button>
+			<button class="btn btn-gray" id="delete-all">Delete all</button>
+			<div class="users-pane">
+				<h5 id="users-num">There is 0 users</h5>
+				<ul id="users"></ul>		
+			</div>
+		</div>
+	</div>
+	<script src="/js/jquery.min.js"></script>
+	<script src="/socket.io/socket.io.js"></script>
+	<script src="/js/jcanvas.min.js"></script>
+	<script src="/app.js"></script>
+</body>
+</html>

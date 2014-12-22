@@ -1,0 +1,62 @@
+h1, h2, h3, h4, h5, h6, ul, ol {
+	margin: 0;
+	padding: 0;
+}
+
+.wrapper {
+	width: 800px;
+	margin: 0 auto;
+}
+
+.welcome {
+	margin: 10px 0;
+}
+
+#workfield {
+	width: 800px;
+	height: 600px;
+	box-shadow: 0px 0px 5px rgba(0, 0, 0, .6);
+	position: relative;
+}
+
+#screen {
+	
+}
+
+.control {
+	position: relative;
+	margin: 20px 0 0;
+}
+
+.users-pane {
+	position: absolute;
+	width: 50%;
+	right: 0;
+	top: 0;
+}
+
+.btn {
+	position: relative;
+	vertical-align: top;
+	width: 150px;
+	height: 54px;
+	padding: 0;
+	font-size: 22px;
+	color: white;
+	text-align: center;
+	text-shadow: 0 1px 2px rgba(0, 0, 0, 0.25);
+	background: #f0776c;
+	border: 0;
+	border-bottom: 2px solid #d76b60;
+	border-radius: 5px;
+	cursor: pointer;
+	-webkit-box-shadow: inset 0 -2px #d76b60;
+	box-shadow: inset 0 -2px #d76b60;
+}
+
+.btn.btn-gray {
+	background: #BABABA;
+	border-bottom: 2px solid #898989;
+	-webkit-box-shadow: inset 0 -2px #898989;
+	box-shadow: inset 0 -2px #898989;
+}
